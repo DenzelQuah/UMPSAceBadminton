@@ -1,5 +1,7 @@
 # UMPSAce Badminton
 
+Badminton Club Full Flow Tournament Project
+
 A Next.js + Supabase operations web app for UMPSA badminton tournaments. It supports singles and consent-based doubles entries, tournament squad eligibility, seeded draws, court scheduling, official duties, scoring, knockout progression, completion, archival, and published rankings.
 
 Everyone uses one institutional login. Players can apply as AJK for a specific tournament from Home or its detail page. MT and System Admins review these requests at `/mt`, a focused dashboard with approvals and basic tournament management. Approved AJKs display `(AJK)` before their name and can receive duties for that tournament. Organization-wide appointments still require System Admin approval at `/admin/users`. Umpire/linesman are match-scoped duties recorded alongside global and tournament roles in `user_roles`. See [tournament AJK approvals](docs/tournament-ajk.md) for the role model and advisor/backup manager setup.
